@@ -1,0 +1,1526 @@
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3135b7e9
+0x7fbf3135a63c
+0x7fbf31313ecc
+0x7fbf3131439b
+0x7fbf31318c86
+0x7fbf3138ef12
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9) [0x7fbf3135b7e9]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c) [0x7fbf3135a63c]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node19get_next_from_inputEmb+0x4b) [0x7fbf3131439b]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval13query_context8get_nextEm+0x16) [0x7fbf31318c86]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12) [0x7fbf3138ef12]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5f7e9)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd5e63c)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+turi::query_eval::execution_node::get_next_from_input(unsigned long, bool)
+turi::query_eval::query_context::get_next(unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd92f12)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
+Pointers
+------------
+0x7fbf3101ad3e
+0x7fbf3138fb11
+0x7fbf3138f22f
+0x7fbf31313ecc
+0x7fbf3130dc85
+0x7fbf3130efe6
+0x7fbf31311199
+0x7fbf310eeb13
+0x7fbf310ed8ab
+0x7fbf310e97e5
+0x7fbf310ec018
+0x7fbf310ebd42
+0x7fbf310e7468
+0x7fbf75e336db
+0x7fbf75b5c71f
+Raw
+------------
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_Z18__print_back_tracev+0x8e) [0x7fbf3101ad3e]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11) [0x7fbf3138fb11]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f) [0x7fbf3138f22f]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval14execution_node8get_nextEmb+0xfc) [0x7fbf31313ecc]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor29generate_to_callback_functionERKSt10shared_ptrINS0_12planner_nodeEEmSt8functionIFbmRKS2_INS_11sframe_rowsEEEE+0x85) [0x7fbf3130dc85]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executor26generate_to_sframe_segmentERKSt10shared_ptrINS0_12planner_nodeEERNS_6sframeEm+0x66) [0x7fbf3130efe6]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199) [0x7fbf31311199]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13) [0x7fbf310eeb13]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi11thread_pool13wait_for_taskEv+0xfb) [0x7fbf310ed8ab]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi12thread_group6invokeEN5boost8functionIFvvEEEPS0_+0x25) [0x7fbf310e97e5]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018) [0x7fbf310ec018]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42) [0x7fbf310ebd42]
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi6thread6invokeEPv+0x28) [0x7fbf310e7468]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fbf75e336db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fbf75b5c71f]
+
+Demangled
+------------
+__print_back_trace()
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd93b11)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd9322f)
+turi::query_eval::execution_node::get_next(unsigned long, bool)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(_ZN4turi10query_eval16subplan_executo
+turi::query_eval::subplan_executor::generate_to_sframe_segment(std::shared_ptr<turi::query_eval::planner_node> const&, turi::sframe&, unsigned long)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xd15199)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf2b13)
+turi::thread_pool::wait_for_task()
+turi::thread_group::invoke(boost::function<void ()>, turi::thread_group*)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaf0018)
+/home/bernhard/ENTER/lib/python3.8/site-packages/turicreate/_cython/../libunity_shared.so(+0xaefd42)
+turi::thread::invoke(void*)
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x76db)
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f)
+-------------------------------------------------------
+
+
